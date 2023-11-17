@@ -1,4 +1,6 @@
-# Componentes
+**OBS: Design System em construção**
+
+#### Componentes
 
 - [] Text
 - [] Heading
