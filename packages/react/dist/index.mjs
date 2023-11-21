@@ -118,7 +118,7 @@ var {
   }
 });
 
-// src/components/box.tsx
+// src/components/Box.tsx
 var Box = styled("div", {
   padding: "$4",
   borderRadius: "$md",
@@ -126,7 +126,7 @@ var Box = styled("div", {
   border: "1px solid $gray600"
 });
 
-// src/components/text.tsx
+// src/components/Text.tsx
 var Text = styled("p", {
   fontFamily: "$default",
   lineHeight: "$base",
@@ -153,7 +153,31 @@ var Text = styled("p", {
     size: "md"
   }
 });
+
+// src/components/Heading.tsx
+var Heading = styled("h2", {
+  fontFamily: "$default",
+  lineHeight: "$shorter",
+  margin: 0,
+  color: "$gray100",
+  variants: {
+    size: {
+      sm: { fontSize: "$xl" },
+      md: { fontSize: "$2xl" },
+      lg: { fontSize: "$4xl" },
+      "2xl": { fontSize: "$5xl" },
+      "3xl": { fontSize: "$6xl" },
+      "4xl": { fontSize: "$7xl" },
+      "5xl": { fontSize: "$8xl" },
+      "6xl": { fontSize: "$9xl" }
+    }
+  },
+  defaultVariants: {
+    size: "md"
+  }
+});
 export {
   Box,
+  Heading,
   Text
 };
