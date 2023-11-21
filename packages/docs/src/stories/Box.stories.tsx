@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Box, BoxProps } from '@ignite_ui/react'
 
 export default {
-  title: 'surfaces/Box',
+  title: 'Surfaces/Box',
   component: Box,
 
   args: {
