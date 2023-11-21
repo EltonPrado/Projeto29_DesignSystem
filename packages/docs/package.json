@@ -13,9 +13,10 @@
   "license": "MIT",
   "dependencies": {
     "@ignite_ui/eslint-config": "*",
-    "@ignite_ui/ts-config": "*",
     "@ignite_ui/react": "*",
     "@ignite_ui/tokens": "*",
+    "@ignite_ui/ts-config": "*",
+    "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
