@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "dev": "storybook dev -p 6006",
     "deploy-storybook": "storybook-to-ghpages",
-    "build": "storybook build && touch ./storybook-static/.nojekyll"
+    "build": "storybook build"
   },
   "license": "MIT",
   "dependencies": {
