@@ -8,6 +8,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "dev": "storybook dev -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
     "build": "storybook build"
   },
   "license": "MIT",
@@ -30,6 +31,7 @@
     "@storybook/blocks": "^7.5.3",
     "@storybook/react": "^7.5.3",
     "@storybook/react-vite": "^7.5.3",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.2.2",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
