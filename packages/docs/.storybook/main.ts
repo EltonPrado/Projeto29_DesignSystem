@@ -28,5 +28,13 @@ const config: StorybookConfig = {
   docs: {
     autodocs: true,
   },
-};
+  viteFinal: (config, {configType}) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/Projeto29_DesignSystem/'
+    }
+
+    return config
+  }
+}
+
 export default config;
