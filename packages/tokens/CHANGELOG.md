@@ -1,5 +1,11 @@
 # @ds_ignite-ui/tokens
 
+## 3.1.0
+
+### Minor Changes
+
+- Add test color
+
 ## 3.0.0
 
 ### Major Changes
